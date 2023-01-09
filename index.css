@@ -1,0 +1,385 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+}
+ul li{
+    list-style: none;
+    float: left;
+}
+a{
+    text-decoration: none;
+}
+.bodyOn .header{
+    border-bottom: transparent;
+    background: rgba(0,0,0,0.2);
+}
+/* 스크롤 애니메이션 */
+.sa {
+    opacity: 0;
+    transition: all .5s ease;
+  }
+  .sa.show {
+    opacity: 1;
+    transform: none;
+  }
+  .sa-up {
+    transform: translate(0, 100px);
+  }
+  .sa-down {
+    transform: translate(0, -100px);
+  }
+  .sa-right {
+    transform: translate(-100px, 0);
+  }
+  .sa-left {
+    transform: translate(100px, 0);
+  }
+  .sa-rotateL {
+    transform: rotate(180deg);
+  }
+  .sa-rotateR {
+    transform: rotate(-180deg);
+  }
+  .sa-scaleUp {
+    transform: scale(.5);
+  }
+  .sa-scaleDown {
+    transform: scale(1.5);
+  }
+  /* 스크롤 애니메이션 */
+header{
+    color: #f2f2f2;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    height: 60px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding: 30px 5% 0;
+    z-index: 3;
+    top: 50px;
+    border-radius: 2.5rem;
+    background: rgba(0,0,0,0.7);
+    margin: 0 auto;
+    width: 1024px;
+    transition: all ease 2s 0s;
+}
+header  ul li a{
+    color: #f2f2f2;
+}
+header .head-inner{
+    display: flex;
+    justify-content: space-between;
+}
+header ul li:hover a{
+    text-decoration: underline;
+}
+.logo{
+    font-size: 30px;
+}
+.categori{
+    font-size: 20px;
+}
+.categori ul li{
+    margin-right: 30px;
+}
+/* 스크롤 내렸을때 css active */
+.active{
+    background: rgba(0,0,0,0.2);
+    width: 100%;
+    top: 0;
+    transition: all ease 2s 0s;
+    border-radius: 0;
+    padding: 30px 0 0;
+}
+.active2{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.wrapper{
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+#intro{
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+    min-height: 550px;
+    position: relative;
+    height: 100vh;
+    background-repeat : no-repeat;
+    background-position: 50% 0px;
+    display: table;
+    background-image: url(img/deer-g25f89ef9d_1920.jpg);
+    background-position: center;
+}
+.bg-img{
+    position: relative;
+    background-image: url(img/Group\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 554px;
+    height: 554px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.introduce{
+    z-index: 2;
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Do Hyeon', sans-serif;
+    color: #f2f2f2;
+    text-shadow: 1px 1px 2px rgb(0 0 0 / 40%);
+}
+.introduce .intro-txt{
+    font-size: 40pt;
+    letter-spacing: 0;
+}
+.introduce .sub-title{
+    font-size: 20pt;
+    letter-spacing: 5px;
+    margin-top: 10px;
+}
+#page{
+    overflow: hidden;
+    padding-top: 6rem;
+    position: relative;
+}
+#page .my-Privacy{
+
+}
+#page .my-Privacy p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    position: relative; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+
+.myPInfo{
+    font-family: 'Noto Sans KR', sans-serif;
+    width: 1024px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.myPInfo ul li{
+    width: 33%;
+}
+.icon{
+    margin: 0 auto 40px;
+    display: table;
+
+}
+.circle{
+    border: 1px solid #cdcdcd;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display:table-cell; 
+    text-align:center; 
+    vertical-align:middle;
+    font-size: 0;
+}
+.myPInfo ul li h2{
+    margin-bottom: 20px;
+}
+.myPInfo ul li p{
+    line-height:20px;
+    font-size: 18px;
+}
+
+/* 두번째 페이지 */
+#page2{
+    margin-top: 10rem;
+}
+#page2 .page2-bg{
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+    height: 500px;
+    width: 100%;
+    position: absolute;
+}
+#page2 .skills p{
+    font-family: 'Do Hyeon', sans-serif;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+
+}
+.skills{
+    margin-bottom: 100px;
+    padding-top: 80px;
+}
+.isthTools{
+    height: 500px;
+    background-image: url(img/—Pngtree—business\ geometric\ minimalist\ wind\ banner_1129587.jpg);
+    background-position: center;
+    background-repeat : no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 2;
+}
+.isthTools-list{
+    text-align: center;
+    padding-bottom: 10rem;
+}
+.isthTools-list ul li{
+    width: 170.666px
+}
+.isthTools-list ul li img{
+    width: 100px;
+    height: 100px;
+}
+.isthTools-list ul li .icons{
+    margin-bottom: 20px;
+}
+.isthTools-list ul li p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #f2f2f2;
+    
+}
+.page2-wrapper{
+    position: relative;
+    margin: 0 auto;
+    width: 1024px;
+    z-index: 3;
+}
+#page3
+{
+    padding-top: 10rem;
+    color: #333333;
+}
+#page3{
+    width: 1024px;
+    margin: 0 auto;
+}
+#page3 .portfolio-title{
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+.PORTFOLIO-wrapper{
+    margin-top: 10%;
+}
+.first-rightBox,
+.second-rightBox,
+.third-rightBox{
+    width: 50%;
+    float: right;
+}
+.boxInner{
+    margin-left: 5%;
+}
+.portfolio-item{
+}
+.portfolio-item img{
+    min-width: 50%;
+    max-width: 50%;
+    min-height: 50%;
+    max-height: 50%;
+    border-radius: 5px;
+    
+}
+.site{
+    margin-top: 150px;
+}
+.style,
+.contribution{
+    font-size: 16px;
+    font-weight: 800;
+}
+.porject-title{
+    font-size: 25px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+}
+
+.tools{
+    font-size: 12px;
+}
+.tools ul li{
+    margin-top: 4%;
+    display: inline-block;
+    padding: 0px 15px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 35px;
+    background: #fff;
+    border-radius: 5rem;
+    transition: 1.5s ease-in-out;
+    -moz-transition: 1.5s ease-in-out;
+    -ms-transition: 1.5s ease-in-out;
+    -o-transition: 1.5s ease-in-out;
+    box-shadow: 0 1px 6px 0 rgb(0 0 0 / 12%);
+    bottom: 0;
+    margin-right: 10px;
+}
+.shrtc{
+    margin-top: 5%;
+    display: inline-block;
+    padding: 0px 15px;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 35px;
+    background: rgb(135, 127, 250);
+    transition: 1.5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    box-shadow: 0 1px 6px 0 rgb(0 0 0 / 12%);
+    bottom: 0;
+    color: #ffff;
+}
+.shrtc:hover{
+    background: #434343;
+    color: #fff;
+  
+}
+.boxInner p{
+    margin-top: 10px;
+}
+.portfolio-item{
+    margin-bottom: 10%;
+}
+/* 네번째 페이지 */
+#page4{
+    width: 1024px;
+    margin: 0 auto;
+    
+}
+#page4 .banner-dg .banner-title{
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+.insta-banner{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* 배너 디자인 첫번째 */
