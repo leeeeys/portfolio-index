@@ -1,0 +1,101 @@
+/* header부분 */
+@media screen and (max-width: 1024px){
+    header {
+        width: 95%;
+        padding: 35px 5% 0;
+        top: 0;
+    border-radius: 0;
+  }
+  header .head-inner{
+    width: 90%;
+  }
+  .logo{
+    font-size: 25px;
+  }
+  .categori{
+    font-size: 15px;
+  }
+  .introduce .sub-title {
+    font-size: 15pt;
+  }
+  .introduce .intro-txt{
+    font-size: 30pt;
+  }
+  .myPInfo ul li{
+    margin: 0 auto;
+    float: none;
+    display: block;
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  .myPInfo{
+    width: 100%;
+    display: block;
+    margin-top: 0;
+  }
+  .myPInfo ul li p{
+    font-size: 20px;
+
+  }
+  .active2{
+    width: 100%;
+  }
+  .icon{
+    margin-bottom: 10px;
+  }
+  #page2 .page2-bg{
+    height: 700px;
+  }
+  .skills{
+    margin-bottom: 50px;
+    padding-top: 30px;
+  }
+  #page2,
+  #page3
+  {
+    margin-top: 5rem;
+  }
+  #page2 .skills p{
+    display: block;
+  }
+  .page2-wrapper,
+  #page3
+  {
+    width: 100%;
+  }
+  .isthTools-list ul li{
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    margin-bottom: 5%;
+    width: 50%;
+  }
+  .first-rightBox,
+  .second-rightBox,
+  .third-rightBox{
+    width: 100%;
+    float: none;
+    background: #f2f2f2;
+    padding: 20px 0;
+  }
+  .portfolio-item img{
+    max-width: 100%;
+    min-width: 100%;
+  }
+  .page4-wrapper{
+    width: 100%;
+  }
+  .web-modal img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+  #page4{
+    background: #fff;
+  }
+  .logo-modal img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+}

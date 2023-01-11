@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    transition: 1.5s ease-in-out;
 }
 body{
 
@@ -239,7 +240,6 @@ header ul li:hover a{
 }
 .isthTools-list{
     text-align: center;
-    padding-bottom: 10rem;
 }
 .isthTools-list ul li{
     width: 170.666px
@@ -372,6 +372,9 @@ header ul li:hover a{
     width: 1024px;
     margin: 0 auto;
 }
+#page4{
+    padding-bottom: 5%;
+}
 #page4 .banner-dg .banner-title{
     font-family: 'Montserrat', sans-serif;
     color: #333333;
@@ -379,12 +382,14 @@ header ul li:hover a{
     font-size: 40px;
     text-align: center;
 }
+.banner-title{
+    padding-top: 5%;
+}
 .logo-banner,
 .insta-banner,
 .page-banner,
 .banner-title,
 .logo-design-title{
-    padding-top: 5%;
     padding-bottom: 5%;
 }
 .web-modal{
@@ -414,7 +419,6 @@ a.button{
     width: 330px;
     height: 330px;
     box-shadow: rgba(0,0,0,0.3);
-    border-radius: 20px;
     
   }
   .modal-open2 img{
@@ -469,7 +473,7 @@ a.button{
     
   }
 .web-modal img{
-    width: 1024px;
+    width: 500px;
     height: 200px;
     border-radius: 20px;
 }
@@ -492,12 +496,6 @@ a.button{
     top:10px;
   }
 
-  .web-modal:hover img{
-    width: 1024px;
-    height: 450px;
-    border-radius: 20px;
-    transition: all ease 2s 0s;
-}
 .logo-design-title{
     font-family: 'Montserrat', sans-serif;
     color: #333333;
@@ -508,7 +506,7 @@ a.button{
 
 .logo-modal img{
     width: 500px;
-    height: 500px;
+    height: 250px;
     border-radius: 20px;
 }
 .logo-con img{
@@ -530,3 +528,19 @@ a.button{
     top:10px;
   }
 
+/* footer 부분 */
+
+.footer{
+    position: relative;  
+    bottom: 0;
+    height: 300px;
+    background: #333333;
+}
+.footer p{
+    color: #f2f2f2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: 'Montserrat', sans-serif;
+    transform: translate(-50%, -50%);
+}
