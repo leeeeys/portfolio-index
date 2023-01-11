@@ -57,4 +57,5 @@ $(window).scroll(function() {
      $("#modal").fadeOut(300);
      $(".modal-con").fadeOut(300);
      $(".web-modal-con").fadeOut(300);
+     $(".logo-con").fadeOut(300);
      });
