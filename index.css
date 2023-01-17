@@ -397,10 +397,7 @@ header ul li:hover a{
 }
 
 /* 배너 디자인 첫번째 */
-#wrap{
-    display: flex;
-    justify-content: space-between;
-}
+
 .page-banner .banner-title{
     font-family: 'Noto Sans KR', sans-serif;
     color: #333333;
@@ -511,7 +508,7 @@ a.button{
 }
 .logo-con img{
     width: 700px;
-    height: 700px;
+    height: 500px;
 }
 .logo-con{
     display:none;
